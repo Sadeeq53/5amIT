@@ -1,3 +1,120 @@
-*{
+body {
+    background-color: aqua;
+}
 
+.page-style {
+    background-image: linear-gradient(to top, rgb(59, 58, 58) 0%, black 100%);
+    color: #ffff;
+    border-radius: 20px;
+    border: solid 10px aqua;
+    outline: 0.5px solid rgb(33, 32, 32);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 160px;
+}
+
+#p1 {
+    margin-left: 20px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.line {
+    border-top: 0.5px solid rgb(72, 70, 70);
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    height: 0.5px;
+}
+
+.nav-style ul {
+
+    position: absolute;
+    margin-left: 12.5rem;
+}
+
+.nav-style li {
+    display: inline;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.sign {
+    color: aqua;
+    padding-left: 5px;
+}
+
+.btn-1 {
+    background-color: black;
+    border-radius: 8px;
+    color: #ffff;
+    border: 0.5px solid #ffff;
+    padding: 8px;
+    font-size: 9px;
+
+}
+
+.btn-2 {
+    background-color: aqua;
+    border-radius: 8px;
+    color: #060505;
+    border: 0.5px solid #080808;
+    padding: 8px;
+    font-size: 9px;
+}
+
+.buttons {
+    margin-left: 7rem;
+    position: relative;
+    display: inline;
+}
+
+
+.section-style {
+    text-align: center;
+    padding: 150px;
+}
+
+.section-style h1 {
+    font-size: 50px;
+}
+
+.section-style p {
+    font-size: 12px;
+    color: rgb(92, 92, 92);
+}
+.arrow-1{
+    background-color:rgb(59, 58, 58) ;
+    color:aqua;
+    padding: 12px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: black 3px solid;
+}
+
+.arrow-2{
+ background-color:black ;
+    color:aqua;
+    padding: 12px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: aqua 2px solid;
+}
+#btn-1a{
+ padding: 0px ;
+ padding-left: 10px;
+ border: black solid 0.5px;
+
+}
+#btn-2b{
+ padding: 0px ;
+ padding-left: 10px;
 }
