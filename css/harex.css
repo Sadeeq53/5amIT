@@ -4,7 +4,7 @@ body{
     bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.layout{
+/* .layout{
     border: groove .5px gray;
     border-radius: 10px;
     position: relative;
@@ -12,17 +12,17 @@ body{
     height: 80vh;
     top: 50px;
     margin-left: 60px; 
-}
+} */
 .container{
-    background-image: linear-gradient( to bottom right,black,white);
-    margin: 12px;
-    border-radius:10px;
-    width: 98%;
-    height: 75vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    vertical-align: middle;
+    background-image: linear-gradient(0deg, rgba(26, 24, 24, 1) 1%, rgb(47, 54, 54) 10%, rgba(0, 0, 0, 1) 100%);
+    border-radius:30px;
+    border: solid 15px rgb(125, 238, 232);
+    outline: solid 1px black;
+    position: relative;
+    top: 70px;
+    left: 150px;
+    width: 80%;
+
 }
 .nav-bar h3{
     color: white;
@@ -39,28 +39,29 @@ body{
     position: absolute;
     top: 35px;
     left: 50px;
+    border-radius: 5px;
 }
  #btn1{
     position: absolute;
     right:180px;
-    top: 30px;
-    border:solid 1px black;
+    top: 27px;
+    border:solid 1px rgb(37, 33, 33);
     border-radius:30px;
     background:none;
     color: white;
-    padding: 5px 10px;
+    padding: 8px 10px;
     font-weight: 700;
     word-spacing: 3px;
 }
 #btn2{
     position: absolute;
     right: 20px;
-    top: 30px;
+    top: 27px;
     border: none;
     border-radius: 30px;  
     background-color: rgb(125, 238, 232);
     color: black;
-    padding: 5px 10px;
+    padding: 8px 10px;
     font-weight: 700;
     word-spacing:3px;
 }
@@ -81,7 +82,7 @@ body{
     margin-left:5px;
 }
 .nav-bar{
-    border-bottom: groove 1px black;
+    border-bottom: groove 1px rgb(43, 37, 37);
 }
 .content{
     text-align: center;
@@ -89,7 +90,7 @@ body{
     top: 50px;
 }
 .content h3{
-    color: whitesmoke;
+    color: rgb(121, 117, 117);
     font-size: 10px;
     word-spacing: 3px;
 }
