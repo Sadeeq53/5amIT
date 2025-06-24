@@ -1,24 +1,25 @@
+/* This is the main page background color */
 body {
     background-color: aqua;
 }
-
-.page-style {
-    background-image: linear-gradient(to top, rgb(59, 58, 58) 0%, black 100%);
+/* This is the main page style */
+.main-style {
+    background-image: linear-gradient(to  top, rgb(59, 58, 58) 0%, black 50%);
     color: #ffff;
     border-radius: 20px;
     border: solid 10px aqua;
-    outline: 0.5px solid rgb(33, 32, 32);
+    outline: 0.8px solid rgb(0, 0, 0);
     position: relative;
     display: flex;
     justify-content: center;
     margin: 160px;
 }
-
+/* This is the logo text style */
 #p1 {
     margin-left: 20px;
 
 }
-
+/* This is the header layout */
 header {
     display: flex;
     flex-direction: row;
@@ -26,7 +27,7 @@ header {
     top: 0px;
     width: 100%;
 }
-
+/* This is the line under the header */
 .line {
     border-top: 0.5px solid rgb(72, 70, 70);
     width: 100%;
@@ -34,24 +35,29 @@ header {
     top: 55px;
     height: 0.5px;
 }
-
+/* This is the navigation bar style */
+nav {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+}
+/* This is the navigation bar position */
 .nav-style ul {
 
     position: absolute;
     margin-left: 12.5rem;
 }
-
+/* This is the navigation links style */
 .nav-style li {
     display: inline;
     padding: 5px;
     font-size: 10px;
 }
-
+/* This is the plus icon color */
 .sign {
     color: aqua;
     padding-left: 5px;
 }
-
+/* This is the black button style */
 .btn-1 {
     background-color: black;
     border-radius: 8px;
@@ -59,9 +65,10 @@ header {
     border: 0.5px solid #ffff;
     padding: 8px;
     font-size: 9px;
+    font-family: 'Space Mono', monospace;
 
 }
-
+/* This is the aqua button style */
 .btn-2 {
     background-color: aqua;
     border-radius: 8px;
@@ -69,52 +76,55 @@ header {
     border: 0.5px solid #080808;
     padding: 8px;
     font-size: 9px;
+    font-family: 'Space Mono', monospace;
 }
-
+/* This is the button group style */
 .buttons {
     margin-left: 7rem;
     position: relative;
     display: inline;
 }
-
-
+/* This is the section center and padding */
 .section-style {
     text-align: center;
     padding: 150px;
 }
-
+/* This is the section main heading size */
 .section-style h1 {
     font-size: 50px;
 }
-
+/* This is the section paragraph style */
 .section-style p {
     font-size: 12px;
-    color: rgb(92, 92, 92);
+    font-family: 'Space Mono', monospace;
+    color: rgb(130, 130, 130);
 }
-.arrow-1{
-    background-color:rgb(59, 58, 58) ;
-    color:aqua;
+/* This is the arrow icon style for the first button */
+.arrow-1 {
+    background-color: rgb(59, 58, 58);
+    color: aqua;
     padding: 12px;
     margin-left: 5px;
     border-radius: 8px;
     border: black 3px solid;
 }
-
-.arrow-2{
- background-color:black ;
-    color:aqua;
+/* This is the arrow icon style for the second button */
+.arrow-2 {
+    background-color: black;
+    color: aqua;
     padding: 12px;
     margin-left: 5px;
     border-radius: 8px;
     border: aqua 2px solid;
 }
-#btn-1a{
- padding: 0px ;
- padding-left: 10px;
- border: black solid 0.5px;
+/* This is the first main button extra style */
+#btn-1a {
+    padding: 0px;
+    padding-left: 10px;
+    border: black solid 0.5px;
 
 }
-#btn-2b{
- padding: 0px ;
- padding-left: 10px;
-}
+/* This is the second main button extra style */
+#btn-2b {
+    padding: 0px;
+    padding-left: 10px;}
