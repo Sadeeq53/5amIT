@@ -7,17 +7,18 @@
 body {
     background-color: aqua;
     font-family: "Outfit", sans-serif;
+     overflow: hidden;
 }
 
 .container {
     justify-content: center;
     align-items: center;
-    margin: 10rem 8rem;
+    margin: 5rem 10rem;
     display: flex;
     border-radius: 20px;
     border: solid 10px aqua;
     outline: solid 1px black;
-    background: linear-gradient(0deg, rgba(26, 24, 24, 1) 1%, rgb(47, 54, 54) 10%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(0deg, rgba(26, 24, 24, 1) 1%, rgb(63, 76, 76) 10%, rgba(0, 0, 0, 1) 100%);
     color: white;
     position: relative;
 }
